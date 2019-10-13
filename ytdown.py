@@ -18,7 +18,7 @@ for i in file:
 	driver.find_element_by_xpath("/html/body/div/div[1]/div[3]/div[4]/div/div[1]/div[2]/div[2]/div[1]/a").click()
 	time.sleep(2)
 	driver.switch_to.window(driver.window_handles[0])//
-	"" savefrom.net website redirects you to a new tab. I haven't
+	"" savefrom.net website redirects you to a new tab. I have not
 	figured out a way to close it, as of yet, so line 20 just takes you back to the original tab***
 	
 
